@@ -15,8 +15,8 @@
       "state":"Ontatio",
       "zip": "L4T 2Z2"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://docs.google.com/document/d/1UNXSOTHBnpaEQ4hLZQNBgiheIPydhJgvnIy2pBMLH_U/edit?usp=sharing",
+    "website": "https://ishan-singh-3005.github.io/ishans/",
+    "resumedownload":"https://docs.google.com/document/d/1g5EycVtO0UvFSWe7OITLFyW7HbgiF-5Y9W1qpM-YUxA/edit?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -45,19 +45,19 @@
         "company":"Royal Bank of Canada",
         "title":"Innovation Developer",
         "years":"July 2020 - August 2020",
-        "description":"Front-end developer for an internal application."
+        "description":"Designed, developed, tested and launched an internal retrospective application for a business unit at RBC."
       },
       {
         "company":"University of Toronto",
         "title":"Research Assistant",
         "years":"July 2019 - August 2019",
-        "description":"Helped analyze data from ASKAP telescope."
+        "description":"Analyzed data collected from the ASKAP telescope to find planets, galaxies and more."
       },
       {
         "company":"University of Toronto",
         "title":"Mentor",
         "years":"July 2019 - August 2019",
-        "description":"Executed physics based workshops."
+        "description":"Facilitated physics-based workshops for younger participants to help them get a better understanding of basic concepts."
       }
     ],
     "volunteer":[
@@ -65,7 +65,13 @@
         "company":"Visions Of Science",
         "title":"Youth Facilitator",
         "years":"September 2017 - Present",
-        "description":"Leading youth from lower-income and marginalized communities through science-based activities while building connections with the kids. Main goal was to help advance their education and close the gap caused by socioeconomic status."
+        "description":"Leading youth from lower-income and marginalized communities through science-based activities while building connections with the kids."
+      },
+      {
+        "company":"Visions Of Science",
+        "title":"Visionary Tutor Lead",
+        "years":"October 2020 - Present",
+        "description":"Work closely with the senior leaders to develop a program that will allow participants to get free online tutoring."
       },
       {
         "company":"Visions Of Science",
@@ -76,14 +82,8 @@
       {
         "company":"Visions Of Science",
         "title":"Visionary Tutor",
-        "years":"July 2020 - August 2020",
-        "description":"Developed and implemented engagement strategies for participants in a virtual environment."
-      },
-      {
-        "company":"Visions Of Science",
-        "title":"Peer Tutor Lead",
         "years":"June 2020 - July 2020",
-        "description":"Helped my peers with their homework and cleared any other doubts in STEM."
+        "description":"Helped participants with their homework and engaged them in other STEM-based activities."
       },
       {
         "company":"Ascension of Our Lord Secondary School",
@@ -101,13 +101,13 @@
         "company":"Eclypse After School Program",
         "title":"Program Facilitator",
         "years":"October 2017 - June 2019",
-        "description":"Facilitated and encouraged participants to take part in a healthy lifestyle through active and engaging activities."
+        "description":"Worked with a team to facilitate and encourage participants to take part in a healthy lifestyle through active and engaging activities."
       },
       {
         "company":"Safe City Mississauga",
         "title":"Volunteer Tutor",
         "years":"September 2017 - January 2018",
-        "description":"Facilitated and encouraged participants to take part in a healthy lifestyle through active and engaging activities."
+        "description":"Helped students with their daily homework and expanded their knowledge in any possible way. Fostered academic and non-academic skills to broaden participant horizons."
       },
       {
         "company":"City Of Mississauga",
@@ -118,16 +118,16 @@
     ],
     "skills":[
       {
+        "name":"Python",
+        "description":"Used for personal projects related to artifical intelligence"
+      },
+      {
         "name":"Java",
         "description":"Used for multiple school related projects"
       },
       {
         "name":"React.js",
         "description":"Mainly focused on frontend development, seeking to gain more backend knowledge"
-      },
-      {
-        "name":"Python",
-        "description":"Used for personal projects related to artifical intelligence"
       }
     ]
   },
