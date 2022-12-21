@@ -1,0 +1,122 @@
+{
+  "main": {
+    "name":"Ishan Singh",
+    "currently":"Second year computer Science student at UofT",
+    "previously":"Previously: Software Developer at RBC",
+    "image":"profilepic.png",
+    "bio":"I am a hard-working student with an aptitude of developing innovative solutions to complex problems. I see myself as an optimist and self-motivated person who can work in teams contributing to the ever-changing needs of business. I have an excellent academic record and diverse working experience with modern technologies such as Python, Java and react.js. I seek to work in the field of software development to build on my pre-existing programming knowledge while also getting a better understanding of the corporate environment.",
+    "contactmessage":"Thank you for viewing my portfolio, feel free to reach out to me using email or phone.",
+    "email": "ishan423@gmail.com",
+    "phone": "647-770-5045",
+    "github":"https://github.com/ishan-singh-3005",
+    "linkedin": "https://www.linkedin.com/in/ishan-s/",
+    "project":"https://github.com/ishan-singh-3005/ishans",
+    "address":{
+      "city":"Mississauga",
+      "state":"Ontatio"
+    },
+    "website": "https://ishan-singh-3005.github.io/ishans/",
+    "resumedownload":"https://docs.google.com/document/d/1g5EycVtO0UvFSWe7OITLFyW7HbgiF-5Y9W1qpM-YUxA/edit?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ishan-s/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ishan-singh-3005/",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Following are some of the technical skills I possess:",
+    "education":[
+      {
+        "school":"University of Toronto",
+        "degree":"Honours: Bachelors of Science in Computer Science",
+        "graduated":"Present",
+        "description":"CGPA: 3.9"
+      }
+    ],
+    "work":[
+      {
+        "company":"Royal Bank of Canada",
+        "title":"Software Developer",
+        "years":"May 2022 - September 2022",
+        "description":"Project manager of a chrome extension URL-shortener built using ReactJS and ExpressJS. Integrated a MariaDB database to store data. Led a team of 10 students while teaching them development skills in an agile environment. Showcased project and hosted workshops in events with up to 150 people. Conducted several surveys to estimate 15,000 employees would use the application. Second place in Battlesnake Summer League."
+      },
+      {
+        "company":"Royal Bank of Canada",
+        "title":"Innovation Developer",
+        "years":"July 2021 - August 2021",
+        "description":"Worked in an agile environment alongside four students to implement several frontend components of an internal search engine using Angular and TypeScript. Added seven new pages to an existing site that improved the user experience. Took the initiative of becoming a scrum master for my team."
+      },
+      {
+        "company":"Royal Bank of Canada",
+        "title":"Innovation Developer",
+        "years":"July 2020 - August 2020",
+        "description":"Worked in a team of four to build features for an internal retrospective application using ReactJS. Organized and hosted nine user interviews with potential users to gain feedback."
+      },
+      {
+        "company":"University of Toronto",
+        "title":"Research Assistant",
+        "years":"July 2019 - August 2019",
+        "description":"Analyzed data collected from the ASKAP telescope to find planets, galaxies, and more. Implemented a python program to improve data filtering by 95%. Extensively used matplotlib to visualize data."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Languages",
+        "description":"Python, Java, JavaScript/ TypeScript, HTML, CSS"
+      },
+      {
+        "name":"Framworks and database",
+        "description":"ExpressJS, ReactJS, React Native, fastapi SQL, MariaDB"
+      },
+      {
+        "name":"Tools",
+        "description":"Git, Redis, DBeaver, LucidCharts, Figma"
+      },
+      {
+        "name":"Leadership skills",
+        "description":"Problem-solving, Agile, Teamwork, Time Management, Facilitation"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Disease Classifier",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The model is trained on data from Canada and the results from this model 95% accurate. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
+      },
+      {
+        "title":"elDEARly",
+        "link": "https://github.com/utmgdsc/eIDEARly",
+        "info": "This app aims to aid elderly people in using modern technology and bridge the digital literacy gap between elders and the current generation. The app includes features such as text-to-speech, text search, and a chatbot. This app was built using React Native and the learning materials are stored in a MongoDB database. The project was completed in a team of four."
+      },
+      {
+        "title":"Tetris",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project was built as part of the CSC207 course. Tetris is a single player game built using Java. The user interface is built using the JavaFX framework."
+      },
+      {
+        "title":"Boggle",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project was built as part of the CSC207 course. Boggle is a single player game built using Java. The user interface is built using the JavaFX framework. Features contributed by include saving a local highscore and a timer integration. The project was completed in a team of four."
+      },
+      {
+        "title":"A-star pathfinding visualizer",
+        "link": "https://github.com/ishan-singh-3005/a-star-pathfinding",
+        "info": "Used python to implement the a-star pathfinding algorithm and created a visualizer using pygame."
+      },
+      {
+        "title":"iCoach",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project is in the planning stage. The goal of the app will be to assist the users in exercising. Using the camera, the user will be able to correct their pose."
+      }
+    ]
+  }
+}
