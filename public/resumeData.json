@@ -1,20 +1,19 @@
 {
   "main": {
     "name":"Ishan Singh",
-    "currently":"Currently: Student at Ascension of Our Lord",
-    "previously":"Previously: Innovation Developer at RBC",
-    "image":"profilepic.jpg",
+    "currently":"Second year computer Science student at UofT",
+    "previously":"Previously: Software Developer at RBC",
+    "image":"profilepic.png",
     "bio":"I am a hard-working student with an aptitude of developing innovative solutions to complex problems. I see myself as an optimist and self-motivated person who can work in teams contributing to the ever-changing needs of business. I have an excellent academic record and diverse working experience with modern technologies such as Python, Java and react.js. I seek to work in the field of software development to build on my pre-existing programming knowledge while also getting a better understanding of the corporate environment.",
     "contactmessage":"Thank you for viewing my portfolio, feel free to reach out to me using email or phone.",
     "email": "ishan423@gmail.com",
     "phone": "647-770-5045",
     "github":"https://github.com/ishan-singh-3005",
+    "linkedin": "https://www.linkedin.com/in/ishan-s/",
     "project":"https://github.com/ishan-singh-3005/ishans",
     "address":{
-      "street":"3703 Corliss Crescent",
       "city":"Mississauga",
-      "state":"Ontatio",
-      "zip": "L4T 2Z2"
+      "state":"Ontatio"
     },
     "website": "https://ishan-singh-3005.github.io/ishans/",
     "resumedownload":"https://docs.google.com/document/d/1g5EycVtO0UvFSWe7OITLFyW7HbgiF-5Y9W1qpM-YUxA/edit?usp=sharing",
@@ -35,128 +34,88 @@
     "skillmessage":"Following are some of the technical skills I possess:",
     "education":[
       {
-        "school":"Ascension of Our Lord Secondary School",
-        "degree":"High School Diploma",
+        "school":"University of Toronto",
+        "degree":"Honours: Bachelors of Science in Computer Science",
         "graduated":"Present",
-        "description":"Grade 12"
+        "description":"CGPA: 3.9"
       }
     ],
     "work":[
       {
         "company":"Royal Bank of Canada",
+        "title":"Software Developer",
+        "years":"May 2022 - September 2022",
+        "description":"Project manager of a chrome extension URL-shortener built using ReactJS and ExpressJS. Integrated a MariaDB database to store data. Led a team of 10 students while teaching them development skills in an agile environment. Showcased project and hosted workshops in events with up to 150 people. Conducted several surveys to estimate 15,000 employees would use the application. Second place in Battlesnake Summer League."
+      },
+      {
+        "company":"Royal Bank of Canada",
+        "title":"Innovation Developer",
+        "years":"July 2021 - August 2021",
+        "description":"Worked in an agile environment alongside four students to implement several frontend components of an internal search engine using Angular and TypeScript. Added seven new pages to an existing site that improved the user experience. Took the initiative of becoming a scrum master for my team."
+      },
+      {
+        "company":"Royal Bank of Canada",
         "title":"Innovation Developer",
         "years":"July 2020 - August 2020",
-        "description":"Designed, developed, tested and launched an internal retrospective application for a business unit at RBC."
+        "description":"Worked in a team of four to build features for an internal retrospective application using ReactJS. Organized and hosted nine user interviews with potential users to gain feedback."
       },
       {
         "company":"University of Toronto",
         "title":"Research Assistant",
         "years":"July 2019 - August 2019",
-        "description":"Analyzed data collected from the ASKAP telescope to find planets, galaxies and more."
-      },
-      {
-        "company":"University of Toronto",
-        "title":"Mentor",
-        "years":"July 2019 - August 2019",
-        "description":"Facilitated physics-based workshops for younger participants to help them get a better understanding of basic concepts."
-      }
-    ],
-    "volunteer":[
-      {
-        "company":"Visions Of Science",
-        "title":"Youth Facilitator",
-        "years":"September 2017 - Present",
-        "description":"Leading youth from lower-income and marginalized communities through science-based activities while building connections with the kids."
-      },
-      {
-        "company":"Visions Of Science",
-        "title":"Visionary Tutor Lead",
-        "years":"October 2020 - Present",
-        "description":"Work closely with the senior leaders to develop a program that will allow participants to get free online tutoring."
-      },
-      {
-        "company":"Visions Of Science",
-        "title":"Content Developer",
-        "years":"July 2020 - Present",
-        "description":"Helped develop an engagement strategy with the official Communications & Marketing team."
-      },
-      {
-        "company":"Visions Of Science",
-        "title":"Visionary Tutor",
-        "years":"June 2020 - July 2020",
-        "description":"Helped participants with their homework and engaged them in other STEM-based activities."
-      },
-      {
-        "company":"Ascension of Our Lord Secondary School",
-        "title":"Math Tutor",
-        "years":"October 2019 - January 2020",
-        "description":"Planned and implemented a program to help my peers with any doubts with the Grade 11 Function curriculum."
-      },
-      {
-        "company":"BIA-Westwood Mall",
-        "title":"Event Staff",
-        "years":"June 2019 - July 2019",
-        "description":"Helped run Canada day celebration in my community."
-      },
-      {
-        "company":"Eclypse After School Program",
-        "title":"Program Facilitator",
-        "years":"October 2017 - June 2019",
-        "description":"Worked with a team to facilitate and encourage participants to take part in a healthy lifestyle through active and engaging activities."
-      },
-      {
-        "company":"Safe City Mississauga",
-        "title":"Volunteer Tutor",
-        "years":"September 2017 - January 2018",
-        "description":"Helped students with their daily homework and expanded their knowledge in any possible way. Fostered academic and non-academic skills to broaden participant horizons."
-      },
-      {
-        "company":"City Of Mississauga",
-        "title":"Event Organiser",
-        "years":"September 2017 - September 2018",
-        "description":"Worked with team to host parent info sessions in communities before start of summer camp to help prepare parents/guardians."
+        "description":"Analyzed data collected from the ASKAP telescope to find planets, galaxies, and more. Implemented a python program to improve data filtering by 95%. Extensively used matplotlib to visualize data."
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "description":"Used for personal projects related to artifical intelligence"
+        "name":"Languages",
+        "description":"Python, Java, JavaScript/ TypeScript, HTML, CSS"
       },
       {
-        "name":"Java",
-        "description":"Used for multiple school related projects"
+        "name":"Framworks and database",
+        "description":"ExpressJS, ReactJS, React Native, fastapi SQL, MariaDB"
       },
       {
-        "name":"React.js",
-        "description":"Mainly focused on frontend development, seeking to gain more backend knowledge"
+        "name":"Tools",
+        "description":"Git, Redis, DBeaver, LucidCharts, Figma"
+      },
+      {
+        "name":"Leadership skills",
+        "description":"Problem-solving, Agile, Teamwork, Time Management, Facilitation"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"My Website",
-        "category":"Personal Portfolio",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://github.com/ishan-singh-3005/ishans"
+        "title":"Disease Classifier",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The model is trained on data from Canada and the results from this model 95% accurate. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
       },
       {
-        "title":"Todo App",
-        "category":"Personal project",
-        "image":"original-thai-food.jpg",
-        "url":"https://github.com/ishan-singh-3005/todo-2"
+        "title":"elDEARly",
+        "link": "https://github.com/utmgdsc/eIDEARly",
+        "info": "This app aims to aid elderly people in using modern technology and bridge the digital literacy gap between elders and the current generation. The app includes features such as text-to-speech, text search, and a chatbot. This app was built using React Native and the learning materials are stored in a MongoDB database. The project was completed in a team of four."
       },
       {
-        "title":"Todo App",
-        "category":"Personal Project",
-        "image":"resume-website.jpg",
-        "url":"https://github.com/ishan-singh-3005/todo"
+        "title":"Tetris",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project was built as part of the CSC207 course. Tetris is a single player game built using Java. The user interface is built using the JavaFX framework."
       },
       {
-        "title":"More",
-        "category":"View all my works on GitHub",
-        "image":"fury-fighting-gear.jpg",
-        "url":"https://github.com/ishan-singh-3005"
+        "title":"Boggle",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project was built as part of the CSC207 course. Boggle is a single player game built using Java. The user interface is built using the JavaFX framework. Features contributed by include saving a local highscore and a timer integration. The project was completed in a team of four."
+      },
+      {
+        "title":"A-star pathfinding visualizer",
+        "link": "https://github.com/ishan-singh-3005/a-star-pathfinding",
+        "info": "Used python to implement the a-star pathfinding algorithm and created a visualizer using pygame."
+      },
+      {
+        "title":"iCoach",
+        "link": "https://github.com/ishan-singh-3005",
+        "info": "This project is in the planning stage. The goal of the app will be to assist the users in exercising. Using the camera, the user will be able to correct their pose."
       }
     ]
   }

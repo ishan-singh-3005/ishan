@@ -29,13 +29,6 @@ class Resume extends Component {
         </div>
       })
 
-      var volunteer = this.props.data.volunteer.map(function(volunteer){
-        return <div key={volunteer.company}><h3>{volunteer.company}</h3>
-            <p className="info">{volunteer.title}<span>&bull;</span> <em className="date">{volunteer.years}</em></p>
-            <p>{volunteer.description}</p>
-        </div>
-      })
-
       var skills = this.props.data.skills.map(function(skills){
         return <div key={skills.name}>
             <p className="info"><b>{skills.name}</b></p>
@@ -72,27 +65,14 @@ class Resume extends Component {
           {work}
         </div>
     </div>
-    
-    <div className="row work">
-      <div className="three columns header-col">
-        <h1><span>Volunteer</span></h1>
-      </div>
-
-      <div className="nine columns main-col">
-        {volunteer}
-      </div>
-    </div>
 
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Technical Skills</span></h1>
+            <h1><span>Skills</span></h1>
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
 
 				<div className="bars">
 				   <ul className="skills">

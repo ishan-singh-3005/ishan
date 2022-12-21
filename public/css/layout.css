@@ -202,13 +202,13 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 180px;
+   width: 185px;
    height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
-   width: 58.33333%;
+   width: 98.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
@@ -262,7 +262,7 @@ ul#nav li.current a { color: #fe6928; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 19px/24px 'librebaskerville', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -287,7 +287,7 @@ ul#nav li.current a { color: #fe6928; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 3px;
    list-style: none;
 }
 .bars li {
@@ -791,7 +791,7 @@ call-to-action .button {
 #contact {
    background: #191919;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 74px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -815,7 +815,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #ffffff;
 }
 
 #contact h4 {
@@ -825,7 +825,6 @@ call-to-action .button {
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -928,13 +927,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #525252;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #303030}
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1019,6 +1018,12 @@ footer .social-links li:first-child { margin-left: 0; }
 .project-btn{
    background-color: #1abc9c !important;
 }
+.project-btn:hover{
+   background-color: #58c6da !important;
+}
 .github-btn{
    background-color: #34495e !important;
+}
+.github-btn:hover{
+   background-color: #58c6da !important;
 }

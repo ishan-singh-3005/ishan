@@ -7,13 +7,10 @@ class Header extends Component {
     if(this.props.data){
        var project = this.props.data.project;
        var github = this.props.data.github;
+       var linkedin = this.props.data.linkedin;
       var name = this.props.data.name;
       var currently= this.props.data.currently;
       var previously= this.props.data.previously;
-      //var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
     }
 
     return (
@@ -27,7 +24,7 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
       </nav>
@@ -40,8 +37,8 @@ class Header extends Component {
             <h3>{previously}</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={linkedin} className="button btn linkedin-btn" target="_blank"><i className="fa fa-linkedin"></i>Linkedin</a>
+               <a href={github} className="button btn github-btn" target="_blank"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>
       </div>
