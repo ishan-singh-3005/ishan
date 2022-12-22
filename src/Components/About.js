@@ -16,17 +16,12 @@ class About extends Component {
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
-            <p>Ishan Singh<br/>Phone: {phone}<br/>Email: {email}</p>
+            <p>Ishan Singh<br/>Email: {email}</p>
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
             <p>{bio}</p>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
          </div>
       </div>
 
