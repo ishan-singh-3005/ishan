@@ -72,7 +72,7 @@
         "description":"Python, Java, JavaScript/ TypeScript, HTML, CSS"
       },
       {
-        "name":"Framworks and database",
+        "name":"Frameworks and database",
         "description":"ExpressJS, ReactJS, React Native, fastapi SQL, MariaDB"
       },
       {
@@ -89,8 +89,8 @@
     "projects": [
       {
         "title":"Disease Classifier",
-        "link": "https://github.com/ishan-singh-3005",
-        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The model is trained on data from Canada and the results from this model 95% accurate. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
+        "link": "https://github.com/ishan-singh-3005/DiseaseClassifier",
+        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The model is trained on data from Canada and the results from this model 95% accurate. Users have the options of taking the heart disease of diabetes test. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
       },
       {
         "title":"elDEARly",
