@@ -1,19 +1,19 @@
 {
   "main": {
     "name":"Ishan Singh",
-    "currently":"Second year computer Science student at UofT",
-    "previously":"Previously: Software Developer at RBC",
+    "currently":"Third year Computer Science student at UofT",
+    "previously":"Integration Engineer @ Ericsson",
     "image":"profilepic.png",
-    "bio":"I am a hard-working student with an aptitude of developing innovative solutions to complex problems. I see myself as an optimist and self-motivated person who can work in teams contributing to the ever-changing needs of business. I have an excellent academic record and diverse working experience with modern technologies such as Python, Java and react.js. I seek to work in the field of software development to build on my pre-existing programming knowledge while also getting a better understanding of the corporate environment.",
+    "bio":"II am a hard-working student with an aptitude for developing innovative solutions to complex problems. I see myself as an optimist and self-motivated person who can work in teams contributing to the ever-changing needs of business. I have an excellent academic record and diverse working experience with modern technologies. I seek to work in the field of software development to build on my knowledge while solving business challenges.",
     "contactmessage":"Thank you for viewing my portfolio, feel free to reach out to me using email or phone.",
-    "email": "ishan423@gmail.com",
+    "email": "is.singh@mail.utoronto.ca",
     "phone": "647-770-5045",
     "github":"https://github.com/ishan-singh-3005",
     "linkedin": "https://www.linkedin.com/in/ishan-s/",
     "project":"https://github.com/ishan-singh-3005/ishans",
     "address":{
       "city":"Mississauga",
-      "state":"Ontatio"
+      "state":"Ontario"
     },
     "website": "https://ishan-singh-3005.github.io/ishans/",
     "resumedownload":"https://docs.google.com/document/d/1g5EycVtO0UvFSWe7OITLFyW7HbgiF-5Y9W1qpM-YUxA/edit?usp=sharing",
@@ -35,49 +35,49 @@
     "education":[
       {
         "school":"University of Toronto",
-        "degree":"Honours: Bachelors of Science in Computer Science",
-        "graduated":"Present",
-        "description":"CGPA: 3.9"
+        "degree":"Honours Bachelors of Science in Computer Science",
+        "graduated":"April 2025",
+        "description":"CGPA: 3.86/4.0"
       }
     ],
     "work":[
       {
+        "company": "Ericsson",
+        "years": ["May 2023 - Present"],
+        "title": "Integration Engineer",
+        "description": ["Developed a testing automation framework using Python, saving 50+ hours weekly for the team.", "Created a user-friendly portal in React and FastAPI to reduce test case generation time from minutes to seconds.", "Orchestrated the containerization of the framework into a Docker image that seamlessly integrated into the GitLab pipeline; 40% reduction in production bugs by running test suites asynchronously.", "Deployed the solution to a cloud-native environment using Kubernetes, ensuring scalability and efficiency."]
+      },
+      {
         "company":"Royal Bank of Canada",
         "title":"Software Developer",
-        "years":"May 2022 - September 2022",
-        "description":"Project manager of a chrome extension URL-shortener built using ReactJS and ExpressJS. Integrated a MariaDB database to store data. Led a team of 10 students while teaching them development skills in an agile environment. Showcased project and hosted workshops in events with up to 150 people. Conducted several surveys to estimate 15,000 employees would use the application. Second place in Battlesnake Summer League."
-      },
-      {
-        "company":"Royal Bank of Canada",
-        "title":"Innovation Developer",
-        "years":"July 2021 - August 2021",
-        "description":"Worked in an agile environment alongside four students to implement several frontend components of an internal search engine using Angular and TypeScript. Added seven new pages to an existing site that improved the user experience. Took the initiative of becoming a scrum master for my team."
-      },
-      {
-        "company":"Royal Bank of Canada",
-        "title":"Innovation Developer",
-        "years":"July 2020 - August 2020",
-        "description":"Worked in a team of four to build features for an internal retrospective application using ReactJS. Organized and hosted nine user interviews with potential users to gain feedback."
+        "years":"July 2020 - May 2022",
+        "description": ["Managed the development of a Chrome extension URL shortener using React and Express, resulting in a 55% increase in user engagement during workshops.",
+        "Integrated a MariaDB database for data storage and suggested the implementation of a Redis caching system, reducing response time by 35%.",
+        "Led a team of 10 students in an agile development environment.",
+        "Enhanced an internal retrospective application using ReactJS, resulting in a 30% increase in user engagement.",
+        "Introduced new features such as real-time collaboration and enhanced data visualization, which were requested by users, resulting in a 15% increase in user satisfaction.",
+        "Presented the project at various internal events with an audience of up to 150 attendees. Estimated the adoption of the application by 15,000 employees, representing 25% of the company's total workforce."]
       },
       {
         "company":"University of Toronto",
         "title":"Research Assistant",
         "years":"July 2019 - August 2019",
-        "description":"Analyzed data collected from the ASKAP telescope to find planets, galaxies, and more. Implemented a python program to improve data filtering by 95%. Extensively used matplotlib to visualize data."
+        "description": ["Developed a Python script to gather essential images to train the machine learning model, enhance data diversity, and boost accuracy by 15%.",
+        "Optimized an analysis tool for ASKAP telescope data that enabled classification of celestial objects, resulting in a significant 30% enhancement in overall performance."]
       }
     ],
     "skills":[
       {
         "name":"Languages",
-        "description":"Python, Java, JavaScript/ TypeScript, HTML, CSS"
+        "description":"Python, Java, C, JavaScript/ TypeScript, HTML, CSS"
       },
       {
         "name":"Frameworks and database",
-        "description":"ExpressJS, ReactJS, React Native, fastapi SQL, MariaDB"
+        "description":"TensorFlow, Node.js, Express, React, React Native, FastAPI, Flask, MongoDB, MariaDB, SQL"
       },
       {
         "name":"Tools",
-        "description":"Git, Redis, DBeaver, LucidCharts, Figma"
+        "description":"Git, Bash, Docker, Redis, Twilio, Robot Framework, Arduino"
       },
       {
         "name":"Leadership skills",
@@ -88,9 +88,14 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Core",
+        "link": "https://github.com/jordanlipson/uofthack-project",
+        "info": "Core was an overall third place winner at UofTHacks. Used TensorFlow to analyze key points of the user to determine if they are performing their exercises correctly. Users can use visual indications on the screen and live auditory feedback to reduce the risk of potential injury while exercising."
+      },
+      {
         "title":"Disease Classifier",
         "link": "https://github.com/ishan-singh-3005/DiseaseClassifier",
-        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The model is trained on data from Canada and the results from this model 95% accurate. Users have the options of taking the heart disease of diabetes test. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
+        "info": "A machine learning model that determines if the user is more or less likely to have a heart disease. The backend is built leverages fastapi and python whereas the frontend is built using React.js."
       },
       {
         "title":"elDEARly",
@@ -111,11 +116,12 @@
         "title":"A-star pathfinding visualizer",
         "link": "https://github.com/ishan-singh-3005/a-star-pathfinding",
         "info": "Used python to implement the a-star pathfinding algorithm and created a visualizer using pygame."
-      },
+      }
+      ,
       {
-        "title":"iCoach",
-        "link": "https://github.com/ishan-singh-3005",
-        "info": "This project is in the planning stage. The goal of the app will be to assist the users in exercising. Using the camera, the user will be able to correct their pose."
+        "title":"Huffman file compression",
+        "link": "https://github.com/ishan-singh-3005/huffman",
+        "info": "This project implements the Huffman's compression algorithm using python."
       }
     ]
   }
